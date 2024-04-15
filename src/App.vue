@@ -10,6 +10,9 @@
       ></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    GTM FIRST
+    GTM FIRST V_{{ version }}
   </div>
 </template>
+<script setup>
+import { version } from "../package.json";
+</script>
