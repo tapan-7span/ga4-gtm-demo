@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GA4 & GTM DEMO</title>
     <!-- Google Tag Manager -->
-    <script>
+    <!-- <script>
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
@@ -16,8 +16,9 @@
         j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
         f.parentNode.insertBefore(j, f);
       })(window, document, "script", "dataLayer", "GTM-M6RBR2ZZ");
-    </script>
+    </script> -->
     <!-- Google tag (gtag.js) -->
+
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-RDMZGG91L0"
@@ -29,9 +30,8 @@
       }
       gtag("js", new Date());
 
-      gtag("config", "G-RDMZGG91L0");
+      gtag("config", "G-RDMZGG91L0", { cookieDomain: "auto", debug: true });
     </script>
-    <!-- End Google Tag Manager -->
   </head>
   <body>
     <div id="app"></div>
